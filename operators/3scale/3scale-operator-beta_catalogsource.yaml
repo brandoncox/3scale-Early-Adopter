@@ -2,7 +2,6 @@ apiVersion: operators.coreos.com/v1alpha1
 kind: CatalogSource
 metadata:
   name: threescale-productized-operators-latest-catalog
-  namespace: rhi-apimgmt
 spec:
   sourceType: grpc
   image: quay.io:443/3scale/rh-3scale-operator-index:3scale.alpha.4.8
